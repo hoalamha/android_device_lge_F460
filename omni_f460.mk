@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
     device/lge/f460/kernel:kernel
 
 PRODUCT_COPY_FILES += device/lge/f460/fstab.tiger6:recovery/root/fstab.tiger6 \
-											   twrp.fstab:recovery/root/etc/twrp.fstab
+							device/lge/f460/twrp.fstab:recovery/root/etc/twrp.fstab
 
 PRODUCT_NAME := omni_f460
 PRODUCT_DEVICE := f460
