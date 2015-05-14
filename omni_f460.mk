@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/lge/f460/kernel:kernel
+    device/lge/f460/zImage:kernel
 
 PRODUCT_COPY_FILES += \
 	device/lge/f460/twrp.fstab:recovery/root/etc/twrp.fstab
