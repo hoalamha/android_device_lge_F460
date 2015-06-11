@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
     device/lge/f460/zImage:kernel
 
 PRODUCT_COPY_FILES += \
-	device/lge/f460/twrp.fstab:recovery/root/etc/twrp.fstab
+	device/lge/f460/twrp.fstab:recovery/root/etc/twrp.fstab \
+	device/lge/f460/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
 
 PRODUCT_NAME := omni_f460
 PRODUCT_DEVICE := f460
@@ -42,7 +43,3 @@ PRODUCT_BRAND := LG
 PRODUCT_MODEL := tiger6
 PRODUCT_MANUFACTURER := LG
 
-# Kernel inline build
-#TARGET_KERNEL_CONFIG := d855_defconfig
-#TARGET_VARIANT_CONFIG := d855_defconfig
-#TARGET_SELINUX_CONFIG := d855_defconfig
