@@ -17,6 +17,7 @@
 #ramdisk
 PRODUCT_COPY_FILES += \
    device/lge/tiger6/init.apq8084_core.rc:root/init.apq8084_core.rc \
+   device/lge/tiger6/init.target.rc:root/init.target.rc \
    device/lge/tiger6/init.apq8084.sensor.sh:root/init.apq8084.sensor.sh \
    device/lge/tiger6/init.class_main.sh:root/init.class_main.sh \
    device/lge/tiger6/init.lge.bt_vendor.rc:root/init.lge.bt_vendor.rc \
